@@ -1,0 +1,63 @@
+
+:root{
+    --color-text: #7289da;
+    --background-color: #36393e;
+}
+
+body {
+    background: var(--background-color);
+}
+
+body iframe {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4em;
+    border-radius: 1.5em;
+    margin-top: 1.8em;
+}
+
+.app__link-discord_server {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-text);
+    text-decoration: none;
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    margin-top: 1em;
+}
+
+.app__link-discord_server:hover {
+    color: red;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+form button {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1.5em;
+    border-radius: 12px;
+    border: 2.5px solid var(--color-text);
+    background: none;
+    color: white;
+    padding: 1em 1em;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    transition-duration: 0.2s;
+}
+
+form button:hover {
+    cursor: pointer;
+    background: var(--color-text);
+    font-weight: bold;
+}
+
+form i {
+    margin: 3px 6px 0 0;
+}
